@@ -37,7 +37,7 @@ window.location.replace(
   )
 );
 ```
-
+<a href="javascript:(function(){var a=/(?:\.org\/(?:note\/)?)(\d+)/.match(window.location.href);window.location.replace(a[0],a[0]+1);})()'">Next Note</a>
 
 ## Note Backward
 Indentical to [Note Forward](#note-forward), only subtracting from the note value.
